@@ -1,0 +1,39 @@
+.carousel-image {
+    width: 100%;
+    /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+    height: auto;
+    /* Permite que la altura se ajuste automáticamente manteniendo la proporción original */
+    display: block;
+    /* Elimina el espacio adicional por debajo de la imagen */
+    margin: auto;
+    /* Centra la imagen horizontalmente dentro del contenedor */
+    position: absolute;
+    /* Permite posicionar la imagen dentro del contenedor */
+    top: 50%;
+    /* Mueve la imagen hacia abajo en un 50% de la altura del contenedor */
+    transform: translateY(-25%);
+    /* Ajusta la posición vertical de la imagen en función de su altura */
+}
+
+.artist{
+    background-image: url('../assets/artista.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita en el fondo */
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+.event{
+    background-image: url('../assets/evento-4.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita en el fondo */
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+}
+
+
+.event ul, .event p{
+    text-shadow: black 2px 1px 1px;
+}

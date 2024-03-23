@@ -1,0 +1,16 @@
+.font-intro{
+    background-image: url('../assets/intro-seguidores.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita en el fondo */
+    
+}
+
+.font-intro p{
+    font-style: italic;
+    font-size: larger;
+    font-weight: bold;
+    color: blanchedalmond;
+    -webkit-text-stroke: 0.5px black;
+}
+
